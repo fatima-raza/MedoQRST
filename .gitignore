@@ -61,4 +61,31 @@ admin-interface/dashboard/admin/lib/credentials/service-account-key.json
 *.json
 admin-interface/backend/config/dbconfig.js
 
+# Additional Flutter/Dart/Pub-related
+.pub-cache/
+.pub/
+**/doc/api/
+**/ios/Flutter/.last_build_id
 
+# Android Studio build outputs
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# Gradle cache and builds
+.gradle
+
+# Flutter obfuscation/symbolication outputs
+app.*.symbols
+app.*.map.json
+
+# Miscellaneous generated files
+*.class
+*.pyc
+.atom/
+.build/
+.buildlog/
+.history
+.swiftpm/
+.svn/
+migrate_working_dir/
