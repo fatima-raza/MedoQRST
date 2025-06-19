@@ -1,0 +1,64 @@
+# Flutter/Dart-specific
+.dart_tool/
+.packages
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# Build outputs
+build/
+!build/.gitkeep
+
+# iOS-specific
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+
+# Android-specific
+**/android/*.iml
+.android/
+gradle/
+**/gradle-wrapper.jar
+**/gradlew
+**/gradlew.bat
+local.properties
+
+# IDE-specific
+.idea/
+*.iml
+.vscode/
+
+# Environment variables
+.env
+
+# Miscellaneous
+*.log
+*.tmp
+*.swp
+*.lock
+
+# App artifacts
+*.apk
+*.ipa
+
+# System files
+.DS_Store
+Thumbs.db
+
+# node modules
+admin-interface/backend/node_modules/
+
+# Ignore Flutter-generated files
+admin-interface/dashboard/admin/linux/flutter/generated_*
+admin-interface/dashboard/admin/macos/Flutter/GeneratedPluginRegistrant.swift
+admin-interface/dashboard/admin/windows/flutter/generated_*
+
+# Secrets
+*.env
+.env
+admin-interface/dashboard/admin/assets/credentials.json
+admin-interface/dashboard/admin/lib/credentials/service-account-key.json
+*.json
+admin-interface/backend/config/dbconfig.js
+
+
